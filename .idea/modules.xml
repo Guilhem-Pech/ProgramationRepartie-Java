@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iut.programationrepartie.iml" filepath="$PROJECT_DIR$/.idea/modules/iut.programationrepartie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iut.programationrepartie_main.iml" filepath="$PROJECT_DIR$/.idea/modules/iut.programationrepartie_main.iml" group="iut.programationrepartie" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iut.programationrepartie_test.iml" filepath="$PROJECT_DIR$/.idea/modules/iut.programationrepartie_test.iml" group="iut.programationrepartie" />
+    </modules>
+  </component>
+</project>
