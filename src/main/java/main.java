@@ -5,8 +5,8 @@ public class main {
     public static void main(String[] args) throws IOException {
 
         ClientTP4 clientTP4 = new ClientTP4("10.203.9.145", 2000);
-        clientTP4.getFile("image1.jpeg", "img.jpeg");
-        clientTP4.getFile("image2.jpeg", "img2.jpeg");
+        clientTP4.getFile("./image1.jpeg", "img.jpeg");
+        clientTP4.getFile("./image2.jpeg", "img2.jpeg");
 
 
 //        ClientTcpEcho client = new ClientTcpEcho("10.203.9.89",50013);
