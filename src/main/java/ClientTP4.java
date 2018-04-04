@@ -7,13 +7,13 @@ public class ClientTP4 {
     private int port;
     private Socket sockClient;
 
-    public ClientTP4(String ip, int port) throws IOException {
+    public ClientTP4(String ip, int port) {
         this.ip = ip;
         this.port = port;
-        sockClient = new Socket(ip, port);
     }
 
     public void getFile(String fileName, String dest) throws IOException {
+        sockClient = new Socket(ip, port);
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(sockClient.getOutputStream()));
         bw.write(fileName);
         bw.newLine();
