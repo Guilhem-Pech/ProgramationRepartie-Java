@@ -31,7 +31,6 @@ public class ServeurChatTcp {
                 System.out.print("Votre message :");
                 String message = entreeClavier.nextLine();
                 write(message,out);
-                entreeClavier.
             }
             client.close();
         }
